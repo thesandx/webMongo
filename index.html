@@ -1,0 +1,25 @@
+<!--Actually you call backend from frontend
+i.e /index pr index.html khule this is not practical
+actually /index.html ke submit button press krne pr /process khule aisa hoga -->
+
+
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		Home
+	</title>
+</head>
+<body>
+	<h1>
+		Sandeep Kumar Jha
+	</h1>
+
+
+	<form action = "http://127.0.0.1:8081/process_post" method = "POST">
+         First Name: <input type = "text" name = "first_name"> <br>
+         Last Name: <input type = "text" name = "last_name">
+         <input type = "submit" value = "Submit">
+      </form>
+</body>
+</html>
